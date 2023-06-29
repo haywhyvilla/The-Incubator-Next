@@ -5,6 +5,7 @@ import Title from "../../shared/title/Title";
 import Button from "../../shared/button/Button";
 import ContainerFluid from "./../../layout/container-fluid/ContainerFluid";
 import styles from "./homeloading.module.scss";
+import Link from "next/link";
 
 import HashLoader from "react-spinners/HashLoader";
 
@@ -44,9 +45,11 @@ const Homeloading = () => {
                     justifyContent: "center",
                   }}
                 >
-                  <Button type="button" buttonType="primary">
-                    Check all Post
-                  </Button>
+                  <Link href="https://the-incubator.vercel.app/">
+                    <Button type="button" buttonType="primary">
+                      Check all Post
+                    </Button>
+                  </Link>
                 </div>
               </div>
             )}
