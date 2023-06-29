@@ -1,0 +1,34 @@
+@import "../../scss/mixins";
+@import "../../scss/variables";
+
+.button-container {
+  font-weight: 400;
+  border: none;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 0.5rem;
+
+  &.primary {
+    background-color: $color-black;
+    color: $color-white;
+    padding: 2rem 3.2rem;
+
+    &:hover {
+      background-color: $primary-colours-400;
+    }
+  }
+
+  &.secondary {
+    background-color: transparent;
+    color: $color-black;
+    border: 0.1rem solid $color-black;
+    padding: 1.3rem;
+
+    &:hover {
+      background-color: $color-black;
+      color: $color-white;
+    }
+  }
+}

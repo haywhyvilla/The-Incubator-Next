@@ -1,0 +1,29 @@
+@import "../scss/variables";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5% !important; //10px/16px = 62.5% -> 1rem = 10px
+
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 50% !important;
+  }
+}
+
+body {
+  font-size: 1.6rem;
+  color: $color-black;
+  background-color: $color-white;
+  line-height: $line-height;
+
+  // section {
+  //   margin-top: 8rem;
+  // }
+}
