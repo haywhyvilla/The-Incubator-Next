@@ -45,7 +45,7 @@ const Homeloading = () => {
                     justifyContent: "center",
                   }}
                 >
-                  <Link href="https://the-incubator.vercel.app/">
+                  <Link href="/home">
                     <Button type="button" buttonType="primary">
                       Check all Post
                     </Button>
